@@ -1,8 +1,11 @@
 ﻿[← back to readme](README.md)
 
 # Release notes
+## Upcoming release
+* Updated for Stardew Valley 1.4.
+
 ## 1.20
-Released 10 June 2019 for SMAPI 2.11.1 or later. Updated by Pathoschild..
+Released 10 June 2019 for SMAPI 2.11.1 or later. Updated by Pathoschild.
 
 * Added 'advanced' tab to set flags and wallet items; merged 'quests' tab into 'advanced'.
 * Fixed max relationship meter not extended for spouse.
