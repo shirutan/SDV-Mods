@@ -154,7 +154,7 @@ namespace CJBCheatsMenu.Framework
                         if (lvl1 < Game1.player.newLevels.Count)
                             Game1.player.newLevels.RemoveAt(Game1.player.newLevels.Count - 1);
                         Game1.exitActiveMenu();
-                        Game1.activeClickableMenu = new LevelUpMenu(0, Game1.player.FarmingLevel, showStaminaRestored: false);
+                        Game1.activeClickableMenu = new LevelUpMenu(0, Game1.player.FarmingLevel);
                         break;
                     case 201:
                         int lvl2 = Game1.player.newLevels.Count;
@@ -162,7 +162,7 @@ namespace CJBCheatsMenu.Framework
                         if (lvl2 < Game1.player.newLevels.Count)
                             Game1.player.newLevels.RemoveAt(Game1.player.newLevels.Count - 1);
                         Game1.exitActiveMenu();
-                        Game1.activeClickableMenu = new LevelUpMenu(3, Game1.player.MiningLevel, showStaminaRestored: false);
+                        Game1.activeClickableMenu = new LevelUpMenu(3, Game1.player.MiningLevel);
                         break;
                     case 202:
                         int lvl3 = Game1.player.newLevels.Count;
@@ -170,7 +170,7 @@ namespace CJBCheatsMenu.Framework
                         if (lvl3 < Game1.player.newLevels.Count)
                             Game1.player.newLevels.RemoveAt(Game1.player.newLevels.Count - 1);
                         Game1.exitActiveMenu();
-                        Game1.activeClickableMenu = new LevelUpMenu(2, Game1.player.ForagingLevel, showStaminaRestored: false);
+                        Game1.activeClickableMenu = new LevelUpMenu(2, Game1.player.ForagingLevel);
                         break;
                     case 203:
                         int lvl4 = Game1.player.newLevels.Count;
@@ -178,7 +178,7 @@ namespace CJBCheatsMenu.Framework
                         if (lvl4 < Game1.player.newLevels.Count)
                             Game1.player.newLevels.RemoveAt(Game1.player.newLevels.Count - 1);
                         Game1.exitActiveMenu();
-                        Game1.activeClickableMenu = new LevelUpMenu(1, Game1.player.FishingLevel, showStaminaRestored: false);
+                        Game1.activeClickableMenu = new LevelUpMenu(1, Game1.player.FishingLevel);
                         break;
                     case 204:
                         int lvl5 = Game1.player.newLevels.Count;
@@ -186,7 +186,7 @@ namespace CJBCheatsMenu.Framework
                         if (lvl5 < Game1.player.newLevels.Count)
                             Game1.player.newLevels.RemoveAt(Game1.player.newLevels.Count - 1);
                         Game1.exitActiveMenu();
-                        Game1.activeClickableMenu = new LevelUpMenu(4, Game1.player.CombatLevel, showStaminaRestored: false);
+                        Game1.activeClickableMenu = new LevelUpMenu(4, Game1.player.CombatLevel);
                         break;
                     case 205:
                         Game1.player.maxHealth -= 5 * Game1.player.CombatLevel;
